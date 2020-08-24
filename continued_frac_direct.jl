@@ -44,7 +44,7 @@ for i in 1:N
 	end
 
 	a = BigInt(xs[i] // 2)
-	if isprime(a)
+	if tan(a) > a && isprime(a)
 		println("We found a prime!")
 		println(a)
 		println("\n")
